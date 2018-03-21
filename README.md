@@ -1,4 +1,3 @@
 # RaspberryPi
-
-HomePi
-blueberry pie
+- HomePi
+  - blueberry pie
