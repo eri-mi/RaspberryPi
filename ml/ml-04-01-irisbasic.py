@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from skleran import datasets
+from sklearn import datasets
 import numpy as np
 
 iris = datasets.load_iris()
