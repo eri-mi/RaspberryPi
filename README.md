@@ -2,6 +2,12 @@
   - HomePi
     - blueberry pie
 
+## Use
+  - Shutdown
+    1. `sudo shutdown -h now`
+    2. unplug the cable
+
+
 ## Code
   - 学習の為に以下を参考にした。
 
