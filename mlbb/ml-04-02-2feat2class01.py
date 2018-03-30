@@ -18,6 +18,7 @@ X = X[:,:2]
 # ターゲットは2 (iris virginica) でないもの, 
 # つまり iris setosa (0) と iris versicolor (1) のみを対象とする
 # (領域の2分割)
+# 対応する理由、分からず
 X = X[y!=2]
 y = y[y!=2]
 
