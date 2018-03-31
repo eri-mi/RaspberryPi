@@ -12,7 +12,7 @@ servo_pin  =  14
 # set_degree = 90 デフォルト
 # 引数指定
 param = sys.argv
-set_degree = int(param[1])
+set_degree = int(45)
 print(set_degree)
 
 wiringpi.wiringPiSetupGpio()
