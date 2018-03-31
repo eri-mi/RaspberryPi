@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # GPIOを制御するライブラリ
 import wiringpi
 # タイマーのライブラリ
