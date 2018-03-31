@@ -3,10 +3,15 @@
     - blueberry pie
 
 ## Use
-  - Shutdown
-    1. `sudo shutdown -h now`
-    2. unplug the cable
+### Shutdown
+  1. `sudo shutdown -h now`
+  2. unplug the cable
 
+### Alias
+  - `source .bash_profile`
+#### `git-log`
+  - gitのlogがカラフルな図で全て見られる
+    - `git log --all --graph`
 
 ## Code
   - 学習の為に以下を参考にした。
