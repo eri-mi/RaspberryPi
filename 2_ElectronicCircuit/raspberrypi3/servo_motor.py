@@ -6,7 +6,7 @@ import time
 import sys
 
 # サーボモータに接続したGPIO端子番号を指定
-servo_pin  =  18
+servo_pin  =  14
 # サーボモータを動かす角度を指定する
 # set_degree = 90 デフォルト
 # 引数指定
