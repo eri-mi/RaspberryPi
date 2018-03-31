@@ -15,7 +15,7 @@ servo = GPIO.PWM(gp_out, 50)
 
 #パルス出力開始。　servo.start( [デューティサイクル 0~100%] )
 #とりあえずゼロ指定だとサイクルが生まれないので特に動かないっぽい？
-servo.start(0)
+servo.start(50)
 #time.sleep(1)
 
 for i in range(3):
