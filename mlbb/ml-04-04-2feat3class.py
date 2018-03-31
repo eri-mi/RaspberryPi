@@ -18,9 +18,9 @@ X = X[:,:2]
 # 分類用にサポートベクトルマシンを用意
 # clf = svm.SVC(C=1.0, kernel='linear', decision_function_shape='ovr')
 # 'auto'を指定すると1/(次元)がセットされる。この場合、1/2=0.5
-clf = svm.SVC(C=1.0, kernel='rbf', gamma='auto', decision_function_shape='ovr')
+# clf = svm.SVC(C=1.0, kernel='rbf', gamma='auto', decision_function_shape='ovr')
 # gammaを大きくすると、曲率が大きい（よく曲がる）境界となる
-#clf = svm.SVC(C=1.0, kernel='rbf', gamma=1.0, decision_function_shape='ovr')
+clf = svm.SVC(C=1.0, kernel='rbf', gamma=1.0, decision_function_shape='ovr')
 # データに最適化
 clf.fit(X, y)
 
